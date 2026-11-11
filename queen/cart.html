@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Queen</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="cart">
+    <main class="wrap w2">
+      <h2 class="ttl">🛒 سلة الطلبات</h2>
+      <div id="items"></div>
+      <div id="sum"></div>
+      <div id="form" class="box">
+        <h3>بيانات التوصيل</h3>
+        <input id="nm" placeholder="الاسم" /><input
+          id="ph"
+          placeholder="رقم الموبايل"
+          type="tel"
+        /><select id="ty">
+          <option>توصيل</option>
+          <option>استلام من الفرع</option></select
+        ><input id="ad" placeholder="العنوان" /><textarea
+          id="nt"
+          rows="2"
+          placeholder="ملاحظات عامة"
+        ></textarea
+        ><button class="btn" id="go" style="width: 100%; margin-top: 1rem">
+          تأكيد الطلب وإرسال عبر واتساب
+        </button>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
